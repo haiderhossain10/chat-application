@@ -85,7 +85,7 @@ export default function Messages({ messages = [] }) {
                                 key={id}
                                 justify={justify}
                                 message={lastMessage}
-                                me={me}
+                                select={me}
                             />
                         );
                     })}
